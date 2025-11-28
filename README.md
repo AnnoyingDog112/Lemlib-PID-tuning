@@ -4,9 +4,9 @@ Install lemlib by using:
 pros c add-depot LemLib https://raw.githubusercontent.com/LemLib/LemLib/depot/stable.json
 pros c apply LemLib
 ```
-Then install this library using
+Download the zip in the releases, then install this library using
 ```
-pros c fetch --name Lemlib_PID_tuning --location AnnoyingDog112/Lemlib-PID-tuning
+pros c fetch Lemlib_PID_tuning@1.0.0.zip    
 pros c apply Lemlib_PID_tuning
 ```
 
