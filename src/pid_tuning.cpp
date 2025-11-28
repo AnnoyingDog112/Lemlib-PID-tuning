@@ -1,8 +1,8 @@
 #include <iostream>
 #include "api.h"  // ensure pros::millis()/delay are declared
-#include "Lemlib_pid-logging.hpp"
+#include "Lemlib_PID_tuning/Lemlib_pid-logging.hpp"
 #include "lemlib/api.hpp"
-#include "pid_tuning.hpp"
+#include "Lemlib_PID_tuning/pid_tuning.hpp"
 #include <cmath>
 
 int error_counter=0;
