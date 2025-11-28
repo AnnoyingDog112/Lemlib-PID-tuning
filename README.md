@@ -7,6 +7,6 @@ pros c apply LemLib
 Then install this library using
 ```
 pros c fetch --name Lemlib_PID_tuning --location AnnoyingDog112/Lemlib-PID-tuning
-pros c apply your_library_name
+pros c apply Lemlib_PID_tuning
 ```
 
