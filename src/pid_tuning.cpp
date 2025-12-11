@@ -246,7 +246,7 @@ void start_lateral_pid_logging_task(
 
     // Perform the motion while logging runs
     // Make this call BLOCKING so logging continues throughout the move
-    chassis->moveToPose(0, target, 0, timeout_ms, {}, false);
+    chassis->moveToPoint(0, target, timeout_ms, {}, false);
 
     // Signal the logger to stop once the motion is done
     args->stop.store(true, std::memory_order_release);
